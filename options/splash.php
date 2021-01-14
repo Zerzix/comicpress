@@ -1,8 +1,9 @@
 <div id="comicpress-splash">
-	<?php wp_nonce_field('update-options') ?>
-	
+
+	<?php wp_nonce_field( 'update-options' ); ?>
+
 	<div class="comicpress-options">
-	
+
 		<table class="widefat">
 			<thead>
 				<tr>
@@ -20,7 +21,7 @@
 			</tbody>
 		</table>
 		<br />
-		
+
 		<table class="widefat">
 			<thead>
 				<tr>
@@ -41,7 +42,7 @@
 						<?php _e( 'Form Email:', 'comicpress' ); ?>
 					</td>
 					<td>
-						<a href="http://frumph.net/contact/">http://frumph.net/contact/</a>
+						<a href="http://frumph.net/contact/" target="_blank" rel="noopener noreferrer">http://frumph.net/contact/</a>
 					</td>
 				</tr>
 				<tr>
@@ -49,7 +50,7 @@
 						<?php _e( 'Via Facebook:', 'comicpress' ); ?>
 					</td>
 					<td>
-						<a href="http://facebook.com/philip.hofer">http://facebook.com/philip.hofer</a>
+						<a href="https://facebook.com/philip.hofer" target="_blank" rel="noopener noreferrer">https://facebook.com/philip.hofer</a>
 					</td>
 				</tr>
 				<tr>
@@ -57,7 +58,7 @@
 						<?php _e( 'WebComics.COM Forums:', 'comicpress' ); ?>
 					</td>
 					<td>
-						<a href="http://webcomics.com/forum/website-design-assistance/">http://webcomics.com/forum/website-design-assistance/</a> <?php _e( '(Subscription only)','comicpress' ); ?>
+						<a href="http://webcomics.com/forum/website-design-assistance/" target="_blank" rel="noopener noreferrer">http://webcomics.com/forum/website-design-assistance/</a> <?php _e( '(Subscription only)','comicpress' ); ?>
 					</td>
 				</tr>
 				<tr>
@@ -65,7 +66,7 @@
 						<?php _e( 'WordPress.ORG Forums:', 'comicpress' ); ?>
 					</td>
 					<td>
-						<a href="https://wordpress.org/support/theme/comicpress">https://wordpress.org/support/theme/comicpress</a> <?php _e( '(rarely go here)', 'comicpress' ); ?>
+						<a href="https://wordpress.org/support/theme/comicpress" target="_blank" rel="noopener noreferrer">https://wordpress.org/support/theme/comicpress</a> <?php _e( '(rarely go here)', 'comicpress' ); ?>
 					</td>
 				</tr>
 				<tr>
@@ -73,7 +74,7 @@
 						<?php _e( 'On Twitter:', 'comicpress' ); ?>
 					</td>
 					<td>
-						<a href="http://twitter.com/Frumph">http://twitter.com/Frumph</a>
+						<a href="https://twitter.com/Frumph" target="_blank" rel="noopener noreferrer">https://twitter.com/Frumph</a>
 					</td>
 				</tr>
 				<tr>
@@ -84,7 +85,7 @@
 			</tbody>
 		</table>
 		<br />
-		
+
 	</div>
-	
+
 </div>

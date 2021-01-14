@@ -1,4 +1,25 @@
-﻿== Developers == 
+﻿Theme Name: ComicPress
+Contributors: Frumph
+Theme URI: http://frumph.net/comicpress
+Description: Publish a WebComic with the ComicPress theme and the Comic Easel plugin.
+Author: Philip M. Hofer (Frumph)
+Author URI: http://frumph.net
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, theme-options, threaded-comments, sticky-post, translation-ready, flexible-header, featured-images
+Version: 4.6
+Text Domain: comicpress
+License: GNU General Public License, v3 (or newer)
+License URI: http://www.opensource.org/licenses/gpl-3.0.html
+GitHub Theme URI: https://github.com/Frumph/comicpress
+GitHub Branch: master
+Requires WP: 4.6
+Tested up to: 5.2
+
+Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+
+== Description ==
+
+
+== Developers ==
 
 Tyler Martin @mindfaucet - Creator
 http://mindfaucet.net
@@ -10,7 +31,7 @@ Rene Wolf @ kniebremser - Contributor
 
 Kristi Hansen @kmhcreative - Contributor
 
-== Theme Documentation == 
+== Theme Documentation ==
 
 ComicPress is a configurable theme, layouts to colors.
 
@@ -30,6 +51,17 @@ WordPress: 4.6
 PHP:       5.4
 
 == Changelog ==
+
+= 4.X =
+* added: Date format in archiv page "archivecomic" are now customizable via language file
+* added: Date format in archiv page "display_archive_as_links" are now customizable via language file
+* added: Date format in author page "author-archive-date" are now customizable via language file
+* added: Date format in search page "display_archive_as_links" are now customizable via language file
+* added: Symbols for search button (&raquo;) and image area (&lsaquo; and &rsaquo;) are now customizable via language file
+* added: Admin can see in author page the user role
+* removed: Google+ Service was discontinued
+* under the hood: Code optimizations according to WPCS
+
 = 4.4 =
 * Compliance check for 4.6 of Wordpress
 * Probably breadcrumb fix for property error when trying to retrieve $parent_id
@@ -68,7 +100,7 @@ PHP:       5.4
 * adjustable site width & sidebars in the customizer
 * zappbar support for responsive, mobile friendly comicpress
 * added layout options to the costumizer
-* added locations taxonomy template, for comic easel, for custom location pages 
+* added locations taxonomy template, for comic easel, for custom location pages
 * added new CSS requirements for theme review team for screen readers
 * added theme_support('title_tag') per requirements of theme review team
 * re-added Post/Comic "Moods" for github version
@@ -91,7 +123,7 @@ PHP:       5.4
 * removed tab layout in comicpress options
 * removed all CSS styling for the dropdown selectors
 * removed comicpress_themeinfo('data') calls that overlap standard WordPress ones
-* removed archive-year template for posts 
+* removed archive-year template for posts
 
 = 4.2.2 =
 * translation and typo fixes by Kniebremser
@@ -112,7 +144,7 @@ PHP:       5.4
 = 4.2 =
 * No longer saves data to the database unless you click save in the comicpress options
 * logic change on featured image for non-comics
-* fixed a few localization strings that weren't set properly to 'comicpress' 
+* fixed a few localization strings that weren't set properly to 'comicpress'
 * fixed a few strings that weren't set as translatable localization
 * removed suggested plugins completely
 * removed help panel completely when updating from old version of comicpress (migration help)
@@ -137,11 +169,11 @@ PHP:       5.4
 * Added #footer a, #footer a:hover and footer textcolor entries to the customizer which were missing
 * Boxed scheme w/blue background image is now the default design
 * added sidebar.php as a default to handle plugins that need it
-* added missing .uentry entries for search.php 
+* added missing .uentry entries for search.php
 * Changed the footer widgets to be specific widths instead of percent
 * New browser window/tab when clicking social links in the menubar
 * Titles no longer link on pages, static or otherwise
-* Regenerated .pot/.mo files 
+* Regenerated .pot/.mo files
 * Readded the default height and width for the custom header image in case the auto-sensing one doesn't work
 * The home link .menu-item-home and the downarrows in the menubar can now all be skinned, i.e. replaced with your own images if you want to; I left examples inside the style.css for the home button
 * Calendar widget removed for ComicPress; since Comic Easel has one, will re-add in a newer version when I update it to the new WordPress code; otherwise it's a liability until then
